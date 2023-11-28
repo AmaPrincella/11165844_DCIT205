@@ -1,0 +1,280 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-right: 20px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: color 0.3s ease; /* Smooth color transition */
+  }
+  
+  .nav-links a:hover {
+    color: #ff7f50; /* Hover color */
+  }
+  
+  /* Styles for the homepage body */
+/* ... (Use the previous CSS styles and add the following) ... */
+
+/* Hero Section */
+ .hero {
+    background: url(images.jpg);
+    background-size: cover;
+    height: 37vh;
+    padding: 100px 0;
+    text-align: center;
+  }
+   .hero .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70vh;
+    background: rgba(0, 0, 0, 0.5); 
+    color: #f1f1f1; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 50px;
+  }
+   .hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+   .hero p {
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 40px;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #ff7f50;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #e64d00;
+  }
+
+/* Stats Section */
+.stats {
+    background-color: #f9f9f9;
+    padding: 80px 0;
+    text-align: center;
+  }
+  
+  .stats h2 {
+    font-size: 28px;
+    margin-bottom: 40px;
+  }
+  
+  .stats-grid {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .stat-item {
+    flex: 1;
+    padding: 20px;
+    margin: 0 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .stat-item h3 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #ff7f50;
+  }
+  
+  .stat-item p {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  /* CSS for the Achievements/Testimonials Section */
+
+.achievements {
+    padding: 80px 0;
+    text-align: center;
+    background-color: #fff;
+  }
+  
+  .achievements h2 {
+    font-size: 28px;
+    margin-bottom: 40px;
+    color: #333;
+  }
+  
+  .testimonial {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  .testimonial img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .testimonial blockquote {
+    max-width: 600px;
+    text-align: left;
+  }
+  
+  .testimonial blockquote p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .testimonial blockquote cite {
+    font-style: italic;
+    font-size: 16px;
+    color: #999;
+  }
+  
+/* CSS for the "Explore Our Courses" Section */
+
+.explore-courses {
+    padding: 80px 0;
+    text-align: center;
+    background-color: #f5f5f5;
+  }
+  
+  .explore-courses h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .explore-courses p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 40px;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .course-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 10px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #ff7f50;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .course-button:hover {
+    background-color: #e64d00;
+  }
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+  }
+  
+  footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  
+  .footer-info,
+  .footer-links,
+  .social-links {
+    flex: 1 1 300px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .footer-links ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-links ul li {
+    margin-bottom: 10px;
+  }
+  .footer-links ul li a {
+    margin-bottom: 10px;
+    color: #f9f9f9;
+  }
+  .footer-links ul li a:hover {
+    margin-bottom: 10px;
+    color: #e64d00;
+  }
+  
+  .social-links ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .social-links ul li {
+    margin-right: 15px;
+  }
+  
+  .social-links a {
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .social-links a:hover {
+    color: #e64d00;
+  }
