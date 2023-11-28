@@ -51,7 +51,7 @@ body {
 
 /* Hero Section */
  .hero {
-    background: url('events\ events.avif');
+    background: url(images.jpg);
     background-size: cover;
     height: 37vh;
     padding: 100px 0;
@@ -80,12 +80,17 @@ body {
     color: #fff;
     margin-bottom: 40px;
   }
-  .courses-page .container h1{
-    margin-right: 50px;
+  
+  .cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #ff7f50;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
   }
-  .courses-page .container h1, h2{
-   color:#e64d00 ;
-  }
-  .courses-page .container p{
-    margin-right: 50px;
+  
+  .cta-button:hover {
+    background-color: #e64d00;
   }
